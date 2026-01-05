@@ -26,6 +26,9 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 };
 
+
+
+
 /*====toggle icon navbar==*/
 
 let menuIcon = document.querySelector('#menu-icon');
@@ -46,6 +49,8 @@ ScrollReveal({
      ScrollReveal().reveal('.home-img, .services-container,portfoli-box, .contact form' , {origin:'bottom'});
      ScrollReveal().reveal('.home-content h1,  .about-img' , {origin:'left'});
      ScrollReveal().reveal('.home-content p,  .about-content' , {origin:'right'});
+
+
 
      /*=== typed js==*/
       const typed = new Typed('.multiple-text',{
@@ -98,6 +103,8 @@ function toggleContent() {
       btn.textContent1 = "Read More";
     }
   }
+
+
   function toggleContent2() {
     var extraContent2= document.getElementById("extra-content2");
     var btn = document.querySelector(".btn");
@@ -110,6 +117,8 @@ function toggleContent() {
       btn.textContent2 = "Read More";
     }
   }
+
+
   function toggleContent3() {
     var extraContent3= document.getElementById("extra-content3");
     var btn = document.querySelector(".btn");
@@ -121,4 +130,5 @@ function toggleContent() {
       extraContent3.style.display = "none";
       btn.textContent3 = "Read More";
     }
+
   }
